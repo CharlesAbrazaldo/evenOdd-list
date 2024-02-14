@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Even/Odd List</title>
+  <script src="./evenOdd.js" defer></script>
+</head>
+<body>
+  <h1>Even Odd Lists</h1>
+  <hr/> 
+  <form id="even-odd-form" autocomplete="off" target="_blank">
+    <div> 
+      <label for="word">word</label> 
+      <input type="text" name="word" id="word"  placeholder="what's your word?" onkeyup=""> 
+    </div>
+    <div>
+      <input type="button" value="Even or Odd?" onclick="updateWord(this)">
+    </div>
+    <section>
+      <h2>Even</h2>
+      <ul id="even>"></ul>
+    </section>
+    <section>
+      <h2>Odd</h2>
+      <ul id="odd"></ul>
+    </section>
+  </script>
+  </form>
+</body>
+</html>
