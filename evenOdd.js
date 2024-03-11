@@ -1,12 +1,13 @@
-<script>
+
 let usersWord = ""
 
 function updateWord(element) {
   usersWord = element.value
+
+  console.log('usersWord' , usersWord)
   }
-</script>
+
 // ------------
-let usersWord = ""
 let oddList = document.getElementById("odd")
 let evenList = document.getElementById("even")
 // ------------
